@@ -1,7 +1,7 @@
 {
-  "name": "cnpmcore-demo",
+  "name": "cnpmcore",
   "version": "3.65.0",
-  "description": "cnpmcore demo",
+  "description": "cnpmcore",
   "private": true,
   "egg": {
     "typescript": true,
@@ -11,7 +11,7 @@
     "dev": "egg-bin dev",
     "build": "npm run tsc",
     "start": "egg-scripts start --daemon --title=cnpmcore",
-    "stop": "egg-scripts stop --title=cnpmcore-demo",
+    "stop": "egg-scripts stop --title=cnpmcore",
     "test-local": "egg-bin test -p",
     "test": "npm run lint -- --fix && npm run test-local",
     "cov": "egg-bin cov -p",
