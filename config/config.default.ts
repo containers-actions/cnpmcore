@@ -66,7 +66,9 @@ export default (appInfo: EggAppConfig) => {
   const config = {} as PowerPartial<EggAppConfig>;
 
   config.keys = process.env.CNPMCORE_EGG_KEYS || randomUUID();
+  config.middleware = [ 'errorHandle' ];
   config.cnpmcore = cnpmcoreConfig;
+  
 
   // override config from framework / plugin
   config.dataDir = process.env.CNPMCORE_DATA_DIR || join(appInfo.root, '.cnpmcore');

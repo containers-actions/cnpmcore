@@ -5,5 +5,5 @@ import { NFSClientAdapter } from 'cnpmcore/infra/NFSClientAdapter';
   name: 'nfsClient',
   accessLevel: AccessLevel.PUBLIC,
 })
-export class MyNFSClient extends NFSClientAdapter {
+export class NFSClient extends NFSClientAdapter {
 }

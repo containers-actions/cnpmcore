@@ -2,7 +2,6 @@ import {
   AccessLevel,
   SingletonProto,
 } from '@eggjs/tegg';
-import { SearchHitsMetadata } from '@elastic/elasticsearch/lib/api/types';
 import { ESSearchAdapter } from 'cnpmcore/infra/SearchAdapter';
 
 /**
@@ -14,5 +13,5 @@ import { ESSearchAdapter } from 'cnpmcore/infra/SearchAdapter';
 })
 
 // @ts-expect-error ignore
-export class MySearchAdapter implements ESSearchAdapter {
+export class SearchAdapter implements ESSearchAdapter {
 }

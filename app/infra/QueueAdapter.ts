@@ -5,5 +5,5 @@ import { RedisQueueAdapter } from 'cnpmcore/infra/QueueAdapter';
   name: 'queueAdapter',
   accessLevel: AccessLevel.PUBLIC,
 })
-export class MyQueueAdapter extends RedisQueueAdapter {
+export class QueueAdapter extends RedisQueueAdapter {
 }
