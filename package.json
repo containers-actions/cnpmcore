@@ -1,6 +1,6 @@
 {
   "name": "cnpmcore",
-  "version": "3.71.1",
+  "version": "3.71.2",
   "description": "cnpmcore",
   "private": true,
   "egg": {
@@ -29,7 +29,7 @@
     "@eggjs/tegg-orm-plugin": "^3.51.0",
     "@eggjs/tegg-plugin": "^3.51.0",
     "@eggjs/tegg-schedule-plugin": "^3.51.0",
-    "cnpmcore": "3.71.1",
+    "cnpmcore": "3.71.2",
     "egg": "^3.28.0",
     "egg-cors": "^3.0.1",
     "egg-errors": "^2.3.2",
